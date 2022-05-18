@@ -60,13 +60,13 @@ a:hover {
 .img-header {
     color: white;
     font-weight: 100;
-    font-size: 4em;
+    font-size: 3.7em;
 }
 
 .img-paragraph {
     color: rgba(255, 255, 255, 0.815);
     font-weight: 100;
-    font-size: 2.1em;
+    font-size: 2em;
     margin-bottom: 1.2em;
 }
 
@@ -81,4 +81,78 @@ a:hover {
 
 .img-items :last-child {
     align-self: center;
+}
+
+.list-header {
+    font-weight: 100;
+    color: rgba(40, 40, 40, 0.934);
+    font-size: 2.5em;
+    margin-top: 8rem;
+    margin-bottom: 3.6rem;
+    text-align: center;
+}
+
+.list-content {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.list-icon {
+    width: 9rem;
+    height: 9rem;
+}
+
+.list-text-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+p1 {
+    font-weight: 400;
+    color: rgba(40, 40, 40, 0.934);
+    font-size: 1.5em;
+}
+
+main {
+    padding-bottom: 10rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 1.5em;
+}
+
+p2 {
+    font-weight: 500;
+    color: rgba(40, 40, 40, 0.871);
+    font-size: 1.1em;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 3em;
+}
+
+.sn-icon {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+p3 {
+    font-weight: 100;
+    color: rgba(99, 99, 99, 0.685);
+    font-size: 1.1em;
+}
+
+hr {
+    width: 80%;
+    opacity: 80%;
 }
